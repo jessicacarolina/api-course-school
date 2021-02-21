@@ -21,7 +21,7 @@ A API consiste em um CRUD (Create, Read, Update e Delete) de Cursos e Escolas e 
 
 - Agora é necessário rodar as migrations para criar as tabelas com o comando **docker-compose exec app php artisan migrate**
 
-Após esses passos o projeto estará funcionando, para testar as rotas você pode usar o Insomnia, basta fazer o download - https://insomnia.rest/download/ e com o Insomnia aberto importe o arquivo que está na pasta clonada nomeado como Insomnia_2021-02-21 onde todas as rotas estarão disponíveis para testar a aplicação.
+Após esses passos o projeto estará funcionando, para testar as rotas você pode usar o Insomnia, basta fazer o download - https://insomnia.rest/download/ e com o Insomnia aberto importe o arquivo que está na raiz do projeto, nomeado como api-courses.json onde todas as rotas estarão disponíveis para testar a aplicação.
 
 ## CRUD Escola
 ### Rotas Escolas
