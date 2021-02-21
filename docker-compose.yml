@@ -21,7 +21,7 @@ services:
     container_name: cursos-db
     restart: unless-stopped
     ports:
-      - 3307:3306
+      - 3306:3306
     environment:
       MYSQL_DATABASE: ${DB_DATABASE}
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
@@ -39,7 +39,7 @@ services:
     container_name: cursos-nginx
     restart: unless-stopped
     ports:
-      - 8000:80
+      - 80:80
     volumes:
       - ./:/var/www
       - ./docker-compose/nginx:/etc/nginx/conf.d/
